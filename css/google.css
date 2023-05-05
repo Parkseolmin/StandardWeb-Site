@@ -3,9 +3,11 @@
     padding: 0;
 }
 
+/*
 body {
     display: contents;
 }
+*/
 
 a {
     text-decoration: none;
@@ -107,4 +109,8 @@ a {
 
 .footer-sec-right {
     float: right;
+}
+
+.wrap {
+    overflow: hidden;
 }

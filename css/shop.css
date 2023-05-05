@@ -1,0 +1,70 @@
+.card:hover {
+    transform: scale(1.05);
+    transition: 0.5s all;
+}
+
+.btn-outline-success {
+    color: chocolate;
+    border-color: chocolate;
+}
+
+.btn-outline-success:hover {
+    background-color: chocolate;
+    border-color: chocolate;
+    color: white;
+}
+
+footer {
+    background: #19110b;
+    font-size: 14px;
+}
+
+.first-line {
+    color: white;
+    border-bottom: 1px solid #392d23;
+}
+
+.second-line {
+    color: white;
+}
+
+.second-line a {
+    color: white;
+    text-decoration: none;
+}
+
+.mobile-footer {
+    border-top: 1px solid #392d23;
+    color: white;
+    text-align: center;
+    font-size: 1.125rem;
+    font-weight: 300;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    align-items: center;
+    display: none;
+}
+
+@media screen and (max-width:48rem) {
+    .first-line {
+        text-align: center;
+    }
+
+    .second-line {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        border-bottom: 1px solid #392d23;
+    }
+
+    .mobile-footer {
+        display: block;
+    }
+
+    .card {
+        margin: 10px;
+    }
+}
+
+.navbar {
+    padding: 8px 32px;
+}
