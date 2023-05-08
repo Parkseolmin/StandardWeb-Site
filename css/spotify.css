@@ -143,14 +143,20 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
 }
 
 .icon {
     font-size: 24px;
+    color: white;
 }
 
 .icon:hover {
     color: #2de26d;
+}
+
+.icon > i {
+    color: white;
 }
 
 .first-line {

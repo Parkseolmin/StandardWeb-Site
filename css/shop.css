@@ -1,19 +1,23 @@
+/*카드 눌렀을 때 카드 커짐*/
 .card:hover {
     transform: scale(1.05);
     transition: 0.5s all;
 }
 
+/*버튼 색변경*/
 .btn-outline-success {
     color: chocolate;
     border-color: chocolate;
 }
 
+/*버튼 클릭시 색변경*/
 .btn-outline-success:hover {
     background-color: chocolate;
     border-color: chocolate;
     color: white;
 }
 
+/*footer 속성*/
 footer {
     background: #19110b;
     font-size: 14px;
@@ -21,7 +25,7 @@ footer {
 
 .first-line {
     color: white;
-    border-bottom: 1px solid #392d23;
+    border-bottom: 1px solid #;
 }
 
 .second-line {
